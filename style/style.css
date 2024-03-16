@@ -1,0 +1,49 @@
+body {
+    background: #000;
+    display: grid;
+    justify-content: center;
+}
+
+h1 {
+    color: blue;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    margin-top: 2em;
+    font-size: 3em;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.btn {
+    color: rgb(3, 70, 3);
+    margin-top: 100px;
+    padding: 1em;
+    font-size: 2em;
+    border: 1px solid blue;
+    border-radius: 14px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background: #d79c06;
+}
+
+/* @media(max-width:1600px){
+    .btn {
+        font-size: 20px;
+        padding: 20px;
+    }
+    h1 {
+        font-size: 40px;
+    }
+    .container {
+        gap:30px;
+        flex-wrap: wrap;
+    }
+} */
